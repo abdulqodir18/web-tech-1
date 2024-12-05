@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="mobile-home.css">
+  
+  <title>WT_CW1_00021944</title>
+</head>
+
+<body>  
+  
+  <header class="header">
+    
+    <div class="container">
+      <a class="header__logo" href="index.html"><img src="assets/img/safia_logo.svg" alt="Safia Logo" width="125" height="125"></a>
+      
+      <div class="header__nav-wrapper">
+        <button class="header__menu-button"></button>
+        
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item"><a href="/index.html">Home</a></li>
+            <li class="header__nav-item"><a href="/about.html">About</a></li>
+            <li class="header__nav-item"><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="order-list-opener" aria-label="Open Order List"></button>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <div class="order-list">
+      <div>
+        <h2 class="order-list__title">Order List</h2>
+        
+        <button class="order-list-closer" aria-label="Close Order List"></button>
+      </div>
+      <ul id="order-list" class="order-list__list">
+        
+      </ul>
+    </div>
+    
+    <section class="hero">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__title">Bring you Happiness through a piece of cake</h1>
+          <p class="hero__description">We make Diffrent type of cakes, chocolate, soft cookies, cheesecake pie or anything you want.</p>
+        </div>
+        
+        <img class="hero__img" src="assets/img/hero-bg.png" alt="Welcome to Safia" width="674" height="400">
+      </div>
+    </section>
+    
+    <section class="best-selling">
+      <div class="container">
+        <div class="best-selling__content">
+          <h2 class="best-selling__title">Try Our Best Selling</h2>
+          <p class="best-selling__text">Here’s our best creations that everyone loves. Lightness and
+            sweetness of the cake make you want more and more. Start
+            from cake, bread and other creations.</p>
+          </div>
+          
+          <ul id="best-selling-list" class="best-selling__list"></ul>
+        </div>
+      </section>
+      
+      <section class="contact">
+        <div class="container">
+          <h2 class="contact__title">For Cake Orders above 1 KG</h2>
+          <p class="contact__text">Please visit our nearest store or
+            call us on <a href="tel:78 113 40 40">78 113 40 40</a> (10 AM to 7 PM) 
+            to place your orders.</p>
+            
+            <a class="contact__link" href="#">Contact Us Now</a>
+          </div>
+        </section>
+  </main>
+      
+  <footer class="footer">
+        <div class="container">
+          
+          <a href="/index.html"><img src="assets/img/safia_logo.svg" alt="Safia Logo" width="125" height="125"></a>
+          
+          <nav class="footer__nav">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item"><a href="/index.html">Home</a></li>
+              <li class="footer__nav-item"><a href="/about.html">About</a></li>
+              <li class="footer__nav-item"><a href="/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          
+          <ul class="footer__social-list">
+            <li class="footer__social-item"><a href="https://www.facebook.com" target="_blank"><img src="assets/img/facebook-logo.svg" alt="Facebook" width="24" height="24"></a></li>
+            <li class="footer__social-item"><a href="https://www.twitter.com" target="_blank"><img src="assets/img/twitter-logo.svg" alt="Twitter" width="24" height="24"></a></li>
+            <li class="footer__social-item"><a href="https://www.linkedin.com" target="_blank"><img src="assets/img/linkedin-logo.svg" alt="linkedin" width="24" height="24"></a></li>
+          </ul>
+        </div>
+  </footer>
+      
+  <template id="best-selling-item-template">
+    <li class="best-selling__item">
+      <a class="best-selling__item-link" href="#"></a>
+      <img src="assets/img/best-selling-exp.png" alt="Best Selling 1" width="231" height="328">
+      <h3 class="best-selling__item-title"></h3>
+      <p class="best-selling__item-text"></p>
+      <div class="best-selling__item-footer">
+        <p class="best-selling__item-price"></p>
+        <button id="" type="button" class="best-selling__item-button">Order Now</button>
+      </div>
+    </li>
+  </template>
+  
+  <template id="order-list-item-template">
+    <li class="order-list__item">
+      <img src="assets/img/best-selling-exp.png" alt="Best Selling 1" width="231" height="328">
+      <div class="order-list__item-content">
+        <h3 class="order-list__item-title">Cake</h3>
+        <p class="order-list__item-text">Quae cum expedita accusantium voluptate repudiandae est dignissimos porro, iure ut eius? Magnam itaque neque nisi veniam perspiciatis tenetur atque, quaerat totam.</p>
+        <div class="order-list__item-footer">
+          <p class="order-list__item-price">20$</p>
+          <button class="order-list__item-button">Remove</button>
+        </div>
+      </div>
+    </li>
+  </template>
+      
+  <script src="main.js"></script>
+
+  <p class="order-list__item-text">This website was created to fulfill Web Technology module’s requirements and does not represent an actual company or service</p>
+</body>
+</html>

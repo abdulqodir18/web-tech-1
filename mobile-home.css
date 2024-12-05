@@ -1,0 +1,42 @@
+@media screen and (max-width: 1056px) {
+  .hero > .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .best-selling__content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .best-selling__title {
+    border-right: none;
+    padding: 0;
+    border-bottom: 1px solid #4A1D1F;
+    padding-bottom: 24px;
+  }
+
+  .best-selling__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer > .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__nav-list {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero__img {
+    object-fit: contain;
+  }
+}
