@@ -3,6 +3,9 @@ SAFIA
 
 # This website was created to fulfill Web Technology module’s requirements and does not represent an actual company or service
 
+# Live Preview
+Link: https://wt-cw1-00021944.netlify.app
+
 ## How to Use
 1. Clone or download the repository.
 2. Open `index.html` in any modern browser to view the website.
